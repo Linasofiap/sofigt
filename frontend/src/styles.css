@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Blanco suave */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #9b59b6; /* Lila */
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button.delete {
+    background-color: #e74c3c; /* Rojo para eliminar */
+    color: white;
+  }
+  
+  button.edit {
+    background-color: #9b59b6; /* Lila */
+    color: white;
+  }
+  
+  button.add {
+    background-color: #2ecc71; /* Verde menta */
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:nth-child(odd) {
+    background-color: white; /* Alternancia de colores */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    align-self: center;
+    width: fit-content;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

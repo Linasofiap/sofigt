@@ -1,0 +1,100 @@
+/* TaskList.css */
+
+.task-list-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #F4EFFF; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.task-list-container h1 {
+    font-size: 35px;
+    color: black; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.task-item {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item strong {
+    color: #3B9D93; 
+    font-size: 18px;
+}
+
+.task-item span {
+    color: #FFFFFF; 
+    background-color: #3B9D93; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px; 
+}
+
+.delete-button, .edit-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button {
+    background-color: #f44336; 
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; 
+}
+
+.edit-button {
+    background-color: #9B59B6; 
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #8e44ad; 
+}
+
+
+.edit-task-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #F4EFFF; 
+}
+
+.cancel-edit-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-edit-button:hover {
+    background-color: #d32f2f;
+}
